@@ -1,0 +1,16 @@
+name = "komepa"
+main = "src/index.ts"
+compatibility_date = "2024-12-27"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "komepa-db"
+database_id = "YOUR_DATABASE_ID" # これは後で実際のIDに置き換えてください
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "komepa-images"
+
+[vars]
+# 環境変数
+# GEMINI_API_KEY = "your-gemini-api-key" # 必要に応じて追加

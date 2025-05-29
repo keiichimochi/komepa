@@ -1,0 +1,23 @@
+{
+  "name": "komepa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "create-db": "wrangler d1 create komepa-db",
+    "init-db": "wrangler d1 execute komepa-db --file=./schema/schema.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250528.0",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.17.0"
+  },
+  "dependencies": {
+    "hono": "^4.7.10"
+  }
+}
