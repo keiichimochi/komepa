@@ -5,7 +5,7 @@ compatibility_date = "2024-12-27"
 [[d1_databases]]
 binding = "DB"
 database_name = "komepa-db"
-database_id = "YOUR_DATABASE_ID" # これは後で実際のIDに置き換えてください
+database_id = "7bef397d-b670-493b-9d32-e6bb1f42a95e"
 
 [[r2_buckets]]
 binding = "R2"
